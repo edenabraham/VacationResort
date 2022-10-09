@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <script src="main.js"></script>
     <script src="calculate.js"></script>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Rover</a>
@@ -30,6 +32,71 @@
         </div>
     </nav>
 
-    
+    <label>
+        Name:
+        <input id="name" type="text" name="name" min="1" required>
+    </label>
+
+    <label>
+        Email:
+        <input id="email" name="email" type="email" min="3">
+    </label>
+
+    <label>
+        Check In Date:
+        <input id="checkinDate" type="date">
+    </label>
+
+    <label>
+        Specify number of nights for your visit (1-28 nights):
+        <input id="nights" type="number" min="1" max="28">
+    </label>
+
+
+    Room Type:
+    <label>
+        <input id="kings" name="room" type="radio">
+        King
+    </label>
+
+    <label>
+        <input id="queen" name="room" type="radio">
+        Queen
+    </label>
+
+    <label>
+        <input id="suite" name="room" type="radio">
+        2-Bedroom Suite
+    </label>
+
+    <label>
+        Number of adults (1-4)
+        <input id="adults" type="number" min="1" max="4">
+    </label>
+
+    <label>
+        Number of children (0-4)
+        <input id="children" type="number" min="0" max="4">
+    </label>
+
+    <label>
+        <input id="none" name="discounts" type="radio">
+        None
+    </label>
+
+    <label>
+        <input id="senior" name="discounts" type="radio">
+        AAA/Senior (10%)
+    </label>
+
+    <label>
+        <input id="military" name="discounts" type="radio">
+        Military (20%)
+    </label>
+
+    <button id="calculate"> Apply </button>
+
+
 </body>
+
 </html>
