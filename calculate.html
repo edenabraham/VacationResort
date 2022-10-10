@@ -9,8 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/calculate.css">
-    <script src="main.js"></script>
-    <script src="calculate.js"></script>
+    <script src="script/main.js"></script>
+    <script src="script/calculate.js"></script>
 </head>
 
 <body>
@@ -55,7 +55,7 @@
 
     Room Type:
     <label>
-        <input id="kings" name="room" type="radio">
+        <input id="king" name="room" type="radio">
         King
     </label>
 
@@ -95,8 +95,37 @@
     </label>
 
     <button id="calculate"> Apply </button>
-    <div>Price: $
-        <span id="calculatedPrice">
+    
+    <div>Original: $
+        <span id="original">
+            
+
+        </span>
+    </div>
+
+    <div>Discount: $
+        <span id="discount">
+            
+
+        </span>
+    </div>
+
+    <div>Discounted Room: $
+        <span id="room">
+            
+
+        </span>
+    </div>
+
+    <div>Tax: $
+        <span id="tax">
+            
+
+        </span>
+    </div>
+
+    <div>Total Cost of Stay: $
+        <span id="total">
             
 
         </span>
