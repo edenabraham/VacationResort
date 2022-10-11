@@ -1,3 +1,12 @@
 body{
-    font-family:sans-serif
+    font-family:sans-serif;
+    background-color:burlywood;
+}
+.centered{
+    text-align: center;
+    
+}
+.description{
+    margin: auto;
+    padding: 55px;
 }

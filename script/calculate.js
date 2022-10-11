@@ -76,9 +76,7 @@ function getRoomRate(checkinDate, queen, king, suite) {
             if (guests > occupancy) {
                 messageDiv.innerHTML = "The room you selected will not hold your party.";
             }
-            else {
-                messageDiv.innerHTML = " ";
-            }
+            
 
             let roomPrice = getRoomRate(checkinDate, queen, king, suite, none, senior, military);
 

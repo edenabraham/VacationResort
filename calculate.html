@@ -28,107 +28,118 @@
                 <li class="nav-item">
                     <a class="nav-link" href="calculate.html">Your Stay</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dining</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Car Rental</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Resort Activities</a>
+                </li>
             </ul>
         </div>
     </nav>
+    <div class="container-fluid">
+        <label>
+            Name:
+            <input id="name" type="text" name="name" min="1" required>
+        </label>
 
-    <label>
-        Name:
-        <input id="name" type="text" name="name" min="1" required>
-    </label>
+        <label>
+            Email:
+            <input id="email" name="email" type="email" min="3">
+        </label>
 
-    <label>
-        Email:
-        <input id="email" name="email" type="email" min="3">
-    </label>
+        <label>
+            Check In Date:
+            <input id="checkinDate" type="date">
+        </label>
 
-    <label>
-        Check In Date:
-        <input id="checkinDate" type="date">
-    </label>
-
-    <label>
-        Specify number of nights for your visit (1-28 nights):
-        <input id="nights" type="number" min="1" max="28">
-    </label>
+        <label>
+            Specify number of nights for your visit (1-28 nights):
+            <input id="nights" type="number" min="1" max="28" value="1">
+        </label>
 
 
-    Room Type:
-    <label>
-        <input id="king" name="room" type="radio">
-        King
-    </label>
+        Room Type:
+        <label>
+            <input id="king" name="room" type="radio">
+            King
+        </label>
 
-    <label>
-        <input id="queen" name="room" type="radio">
-        Queen
-    </label>
+        <label>
+            <input id="queen" name="room" type="radio">
+            Queen
+        </label>
 
-    <label>
-        <input id="suite" name="room" type="radio">
-        2-Bedroom Suite
-    </label>
+        <label>
+            <input id="suite" name="room" type="radio">
+            2-Bedroom Suite
+        </label>
 
-    <label>
-        Number of adults (1-4)
-        <input id="adults" type="number" min="1" max="4">
-    </label>
+        <label>
+            Number of adults (1-4)
+            <input id="adults" type="number" min="1" max="4" value="1">
+        </label>
 
-    <label>
-        Number of children (0-4)
-        <input id="children" type="number" min="0" max="4">
-    </label>
+        <label>
+            Number of children (0-4)
+            <input id="children" type="number" min="0" max="4" value="0">
+        </label>
 
-    <label>
-        <input id="none" name="discounts" type="radio">
-        None
-    </label>
 
-    <label>
-        <input id="senior" name="discounts" type="radio">
-        AAA/Senior (10%)
-    </label>
+        <label>
+            <input id="none" name="discounts" type="radio" checked>
+            None
+        </label>
 
-    <label>
-        <input id="military" name="discounts" type="radio">
-        Military (20%)
-    </label>
+        <label>
+            <input id="senior" name="discounts" type="radio">
+            AAA/Senior (10%)
+        </label>
 
-    <button id="calculate"> Apply </button>
-    
-    <div>Original: $
-        <span id="original">
-            
+        <label>
+            <input id="military" name="discounts" type="radio">
+            Military (20%)
+        </label>
 
-        </span>
-    </div>
+        <button id="calculate"> Apply </button>
 
-    <div>Discount: $
-        <span id="discount">
-            
+        <div>Original: $
+            <span id="original">
 
-        </span>
-    </div>
 
-    <div>Discounted Room: $
-        <span id="room">
-            
+            </span>
+        </div>
 
-        </span>
-    </div>
+        <div>Discount: $
+            <span id="discount">
 
-    <div>Tax: $
-        <span id="tax">
-            
 
-        </span>
-    </div>
+            </span>
+        </div>
 
-    <div>Total Cost of Stay: $
-        <span id="total">
-            
+        <div>Discounted Room: $
+            <span id="room">
 
-        </span>
+
+            </span>
+        </div>
+
+        <div>Tax: $
+            <span id="tax">
+
+
+            </span>
+        </div>
+
+        <div>Total Cost of Stay: $
+            <span id="total">
+
+
+            </span>
+        </div>
     </div>
 
 

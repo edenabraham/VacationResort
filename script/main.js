@@ -5,6 +5,6 @@ function init() {
 }
 window.onload= init // wait until body/html is loaded
 */
-document.addEventListener("DOMContentLoaded",()=>( // begin annonymous
+document.addEventListener("DOMContentLoaded",()=>{ // begin annonymous
 //init code here
-)); 
+}); 

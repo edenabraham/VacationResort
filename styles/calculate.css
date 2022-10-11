@@ -1,5 +1,6 @@
 body{
-    font-family:sans-serif
+    font-family:sans-serif;
+    background-color: bisque;
 }
 label{
     display: block;
@@ -10,4 +11,12 @@ input{
 }
 input[type=radio] {
     display:inline;
+}
+.container-fluid{
+    text-align: left;
+    margin: 20px;;
+    margin-left: 30%;
+    width: 50%;
+    border-style: ridge;
+    background-color: antiquewhite;
 }
